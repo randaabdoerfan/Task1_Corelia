@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Personal Webpage</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header, main, footer {
+      padding: 20px;
+    }
+
+  header {
+  background-color: #daecdbff;
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  padding: 20px;
+}
+
+img {
+  width: 170px;
+  border-radius: 50%;
+}
+
+.name {
+  flex: 1;
+  text-align: left;
+}
+
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .name {
+    text-align: center;
+  }
+}
+
+
+    footer {
+      background-color: #daecdbff;
+      text-align: center;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+ 
+   .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projects article {
+  flex: 1 1 300px;
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+      }
+      .projects {
+    flex-direction: column;
+     }
+
+  .projects article {
+    width: 100%;
+    }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+      }
+
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://th.bing.com/th/id/OIP.ohYJipUbk0ix23oj97IMdwHaNK?w=104&h=104&c=7&bgcl=14ce00&r=0&o=6&pid=13.1" alt="Profile Picture">
+    <div class="name">
+      <h1>Hi, I'm Randa Erfan!</h1>
+      <p>Welcome to my personal page</p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I'm learning web development and enjoying the process. I like working with HTML, CSS, and soon JavaScript!</p>
+    </section>
+
+<section class="projects">
+  <h2>Projects</h2>
+  <article>
+    <h3>My First Website</h3>
+    <p>A simple site I built using just HTML and CSS</p>
+  </article>
+  <article>
+    <h3>Portfolio</h3>
+    <p>Currently designing my online portfolio to showcase my work</p>
+  </article>
+</section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>You can reach me at: <a href="mailto:randaerfan12@gmail.com">randaerfan12@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Randa Erfan. All rights reserved</p>
+  </footer>
+
+</body>
+</html>
