@@ -23,7 +23,7 @@ This is a responsive personal portfolio webpage built using **Bootstrap 5.3.3**.
 
 ## 📸 Preview
 
-![Preview Screenshot](screenshot.png)  
+![Preview Screenshot](Screenshot.png)  
 
 ## 🚀 How to Use
 
