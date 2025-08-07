@@ -17,7 +17,7 @@ This project is a responsive **Product Showcase Page** designed to attractively 
 - Bootstrap Icons
 
 ## 📸 Preview
-![Preview Screenshot](screenshot.png) 
+![Preview Screenshot](Screenshot.png) 
 
 ## How It Works
 - The left panel contains a creative product intro with a catchy title and description.
