@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Task 3</title>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This webpage demonstrates Bootstrap components including a responsive navbar, cards, grid system, badges, tables, buttons, footer, and responsive layout. Designed using Bootstrap 5.3.3.">
+<meta name="author" content="Randa Erfan">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+ <body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#"><img alt="" class="img-thumbnail" src="https://th.bing.com/th?q=Developer+Avatar+PNG&w=120&h=120&c=1&rs=1&qlt=90&r=0&cb=1&pid=InlineBlock&mkt=en-XA&cc=EG&setlang=en&adlt=strict&t=1&mw=247" width="36" /></a>
+    <div class="collapse navbar-collapse" id="navbarExample">
+      <ul class="navbar-nav me-auto mb-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../first/Task1/task1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Team</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../first/Project1/Reseme.html">Reseme Project</a></li>
+            <li><a class="dropdown-item" href="../second/Project2/project2.html">Travel Project</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="https://engineerrandaerfan.wixsite.com/my-protfolio">go to Profolio</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center flex-column flex-lg-row">
+        <form class="me-2 mb-2 mb-lg-0">
+          <input type="text" class="form-control form-control-sm" placeholder="Search" />
+        </form>
+        <a class="btn btn-dark" href="#">Sign up</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="bg-secondary text-white text-center p-5 mt-3 rounded">
+  <h1>Hello, I'm Randa</h1>
+  <p class="lead">A passionate Frontend & Backend Developer building modern web experiences.</p>
+  <a href="https://engineerrandaerfan.wixsite.com/my-protfolio" class="btn btn-light mt-3">Explore My Skills</a>
+</div>
+
+
+
+ <div class="container mt-5">
+  <div class="row justify-content-center">
+  <div class="col-sm-4">
+    <div class="card" >
+      <img style="width: 100%; height: 300px; object-fit: cover;"  src="https://th.bing.com/th/id/OIP.7k0SgFPnjhguucfLkaC5VgHaHa?w=192&h=191&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top" alt="Placeholder Image">
+      <div class="card-body">
+        <h5 class="card-title">Who is Frontend Developer?</h5>
+        <p class="card-text">Who using Some Components of Bootstrap which makes Ui prefect.</p>
+        <a target="_blank" href="https://www.w3schools.com/whatis/whatis_frontenddev.asp" class="btn btn-secondary">More about Frontend Developer</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <img  style="width: 100%; height: 300px; object-fit: cover;" src="https://th.bing.com/th/id/OIP.1UF_asgWxV4tB6-mybFjpAHaEJ?w=284&h=180&c=7&r=0&o=7&pid=1.7&rm=3" class="card-img-top" alt="Placeholder Image">
+      <div class="card-body">
+        <h5 class="card-title">Who is Backend Developer?</h5>
+        <p class="card-text">Who using Some database and secuirty which makes Ux prefect.</p>
+        <a target="_blank" href="https://www.guru99.com/what-is-backend-developer.html" class="btn btn-secondary">More about Backend Developer</a>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="container mt-5">
+  <h3 class="text-center mb-4">My Skills</h3>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>#</th>
+          <th>Skill</th>
+          <th>Level</th>
+          <th>Experience</th>
+          <th>Tools/Technologies</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>HTML & CSS</td>
+          <td>Advanced</td>
+          <td>3+ Years</td>
+          <td>VS Code, Chrome DevTools</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>JavaScript</td>
+          <td>Intermediate</td>
+          <td>2 Years</td>
+          <td>ES6, DOM, Fetch API</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Bootstrap</td>
+          <td>Advanced</td>
+          <td>2 Years</td>
+          <td>Bootstrap 5, Components</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Backend (Node.js)</td>
+          <td>Basic</td>
+          <td>1 Year</td>
+          <td>Express, MongoDB</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+  <h5>Badges:</h5>
+<span class="badge bg-info">VS Code</span>
+<span class="badge bg-warning text-dark">Chrome DevTools</span>
+<span class="badge bg-primary">HTML</span>
+<span class="badge bg-secondary">CSS</span>
+<span class="badge bg-success">JavaScript</span>
+<span class="badge bg-info">Bootstrap</span>
+
+
+<footer class="bg-secondary text-white text-center py-4 mt-5">
+  <p>© 2025 Randa Portfolio</p>
+  <div>
+    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+    <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+    <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+  </div>
+</footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
