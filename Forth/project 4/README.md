@@ -7,7 +7,7 @@ The site is deployed on **Vercel** and accessible via a live link.
 ---
 
 ## Live Demo
-[View Live Site](https://vercel-seven-snowy-49.vercel.app/)  
+[View Live Site](https://corelia-sj9n.vercel.app/)  
 
 ---
 
