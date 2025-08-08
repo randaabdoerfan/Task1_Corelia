@@ -73,7 +73,7 @@ const data = {
         },
         {
             title: "Build Semantic HTML Page",
-            userStory: "As a beginner, I want to create a personal webpage using semantic HTML tags, so that my content is structured and accessible.",
+            userStory: "Personal webpage using semantic HTML tags, so that my content is structured and accessible.",
             acceptance: [
                 "Use semantic tags like header, main, footer, article, and section",
                 "Include at least 3 sections",
@@ -83,7 +83,7 @@ const data = {
         },
         {
             title: "Rebuild Layout with Flexbox/Grid",
-            userStory: "As a developer, I want to convert an HTML layout into a responsive layout using Flexbox or Grid.",
+            userStory: "A responsive layout using Flexbox or Grid.",
             acceptance: [
                 "Uses Flexbox or Grid for layout",
                 "Mobile responsive",
@@ -93,7 +93,7 @@ const data = {
         },
         {
             title: "Push Code and Deploy",
-            userStory: "As a developer, I want to deploy my project using GitHub and Vercel so others can view my work live.",
+            userStory: "Deploy my project using GitHub and Vercel so others can view my work live.",
             acceptance: [
                 "Git repo created and committed",
                 "Project deployed on Vercel",
@@ -117,7 +117,7 @@ data.projects.forEach(proj => {
         </div>
         <div class="card-content">
             <h3>${proj.title}</h3>
-            <p class="desc"><strong>User Story:</strong> ${proj.description}</p>
+            <p class="desc"><strong>Description:</strong> ${proj.description}</p>
             <p><strong>Acceptance Criteria:</strong></p>
             <ul>${proj.acceptance.map(a => `<li>${a}</li>`).join('')}</ul>
         </div>
@@ -145,7 +145,7 @@ webTasks.forEach(task => {
         </div>
         <div class="card-content">
             <h3>${task.title}</h3>
-            <p class="desc"><strong>User Story:</strong> ${task.userStory}</p>
+            <p class="desc"><strong>Description:</strong> ${task.userStory}</p>
             <p><strong>Acceptance Criteria:</strong></p>
             <ul>${task.acceptance.map(a => `<li>${a}</li>`).join('')}</ul>
         </div>

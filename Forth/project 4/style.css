@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #cbc6df, #bec4c4);
-  color: #fff;
+  background: linear-gradient(135deg, #ceb1b3, #a09aad);
+  color: #070707;
   min-height: 100vh;
 }
 
@@ -39,6 +39,7 @@ h2 {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   opacity: 0;
   transform: translateY(50px);
+  min-width: 100px;
 }
 
 
