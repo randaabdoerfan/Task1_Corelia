@@ -1,0 +1,132 @@
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh; 
+}
+
+.todo {
+  background-image: url(https://www.awakenedvoyages.com/wp-content/uploads/2022/07/DSC_2581-1-1024x683.jpg);
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+  width: 500px;
+  text-align: center;
+}
+.up {
+  display: flex;
+  align-items: center; 
+  gap: 10px;
+  background-color: #55b4a8;
+  color: white;
+  padding: 10px 20px;
+  border: 3px solid white;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.up i {
+  font-size: 24px; 
+}
+
+.up h1 {
+  font-size: 28px;
+  margin: 0; 
+}
+input {
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 20px ;
+  margin-bottom: 20px;
+  box-sizing: border-box; 
+  padding: 10px;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 15px;
+  width: 110%; 
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  width: 90%; 
+  box-sizing: border-box; 
+  word-wrap: break-word;    
+  overflow-wrap: break-word; 
+  white-space: normal; 
+}
+#taskList {
+  display: inline-block;
+  max-width: 90%;
+  padding: 0;
+  margin: 0;
+}
+.task-text {
+  flex: 1;                  
+  word-break: break-word;   
+}
+
+li {
+  margin: 5px 0;
+}
+.task-item.done {
+  background-color: #e6ffe6;
+  text-decoration: line-through;
+}
+
+.status-icon {
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+button {
+  background: #ff4d4d;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  
+}
+
+button:hover {
+  background: #cc0000;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.task{
+  background: #55b4a8;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+.task:hover {
+  background: #159483;
+}
+@media (min-width: 300px) {
+  .task {
+    font-size: 14px;
+  }
+}

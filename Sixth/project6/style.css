@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://tse3.mm.bing.net/th/id/OIP.QBXnr18iqf4PVQH-Gk0YjwHaE8?w=2560&h=1709&rs=1&pid=ImgDetMain&o=7&rm=3);
+   background-repeat: no-repeat;
+  background-size: cover;     
+  background-position: center center; 
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  max-width: 800px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="number"], select {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button#addBtn {
+  background: #4caf50;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+button#addBtn:hover {
+  background: #388e3c;
+}
+
+.totals {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.totals div {
+  flex: 1;
+}
+
+#transactionList {
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-left: 0;
+  border-top: 1px solid #ddd;
+}
+
+#transactionList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+  color: #333;
+}
+
+#transactionList li.income {
+  border-left: 6px solid #4caf50;
+  background: #e6f4ea;
+}
+
+#transactionList li.expense {
+  border-left: 6px solid #f44336;
+  background: #f9e6e6;
+}
+
+.delete-btn {
+  background: #f44336;
+  border: none;
+  color: white;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #c62828;
+}
